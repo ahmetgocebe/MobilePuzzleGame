@@ -1,11 +1,11 @@
+using System;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class MovingCube : MonoBehaviour
 {
-    public void MovePosition(Direction direction)
-    {
-        
-    }
+
 }
 public enum Direction
 {

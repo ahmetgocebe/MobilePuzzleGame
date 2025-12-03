@@ -6,10 +6,10 @@ public class GridSystem : MonoBehaviour
 {
     public GameObject cam;
     public Dictionary<(int, int), GridCell> gridCells = new Dictionary<(int, int), GridCell>();
-    
+    public GameObject cellPrefab;
     private void Start()
     {
-        CreateGrid(3, 7);
+        CreateGrid(5, 9);
     }
     public void CreateGrid(int width, int height)
     {
@@ -17,7 +17,8 @@ public class GridSystem : MonoBehaviour
         {
             for (int y = 0; y < height; y++)
             {
-                GameObject cellObject = new GameObject($"Cell_{x}_{y}");
+                GameObject cellObject = Instantiate(cellPrefab);
+                cellObject.transform.name = $"Cell_{x}_{y}";
                 cellObject.transform.position = new Vector3(x, y, 0);
                 GridCell gridCell = cellObject.AddComponent<GridCell>();
                 gridCell.InitCell(x, y);

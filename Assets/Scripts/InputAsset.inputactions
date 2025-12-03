@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "InputAsset",
+    "maps": [
+        {
+            "name": "MobileInputMap",
+            "id": "c4801d6c-8f71-41b1-9b65-6ffd2b153a3d",
+            "actions": [
+                {
+                    "name": "SwipeDelta",
+                    "type": "Value",
+                    "id": "df0d27e9-0cfa-41d4-9eb7-c99b96405d59",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "96ac5298-f4f9-4fdf-bb61-b7fd9f4242b1",
+                    "path": "<Touchscreen>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwipeDelta",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
