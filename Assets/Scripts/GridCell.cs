@@ -18,5 +18,13 @@ public class GridCell : MonoBehaviour
         get { return _isWall; }
         set { _isWall = value; }
     }
+    private bool _isLava;
+
+    public bool IsLava
+    {
+        get { return _isLava; }
+        set { _isLava = value; }
+    }
+
 
 }
