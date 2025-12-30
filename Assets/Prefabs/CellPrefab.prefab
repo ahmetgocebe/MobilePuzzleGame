@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6099456100356024213}
   - component: {fileID: 8295266146043617493}
   - component: {fileID: -8082641535395432100}
+  - component: {fileID: -1920974735373288036}
   m_Layer: 0
   m_Name: CellPrefab
   m_TagString: Untagged
@@ -164,3 +165,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-1920974735373288036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8106775196448109627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53d24ba377588c5419da8375cf501f01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GridCell
+  cellTexture: {fileID: 2100000, guid: 014870bcdfca0ba49aa2387404b1be0b, type: 2}
+  wallTexture: {fileID: 2100000, guid: e453e8641a692854783c1250474173ea, type: 2}
+  lavaTexture: {fileID: 2100000, guid: fffd0d2fd2cf59c48b3c380b34d60fdf, type: 2}
+  bouncerTexture: {fileID: 2100000, guid: 3a09868e6460e9942a81ec217c36aeea, type: 2}
+  x: 0
+  y: 0
