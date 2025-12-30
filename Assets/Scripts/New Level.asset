@@ -12,3 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa25dda2cf0e39947aa55210c49355f9, type: 3}
   m_Name: New Level
   m_EditorClassIdentifier: Assembly-CSharp::Level
+  id: 0
+  walls: []
+  lava: []
+  bouncers: []

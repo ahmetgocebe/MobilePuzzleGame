@@ -6,5 +6,6 @@ public class Level : ScriptableObject
     public int id;
     public List<Vector2> walls=new List<Vector2>();
     public List<Vector2> lava=new List<Vector2>();
+    public List<Vector2> bouncers=new List<Vector2>();
 }
 
